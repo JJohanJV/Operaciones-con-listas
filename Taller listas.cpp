@@ -153,6 +153,7 @@ void generarListaAleatoriamente(Nodo*& lista, int n){
     }
     
 }
+
 void print(Nodo*& lista, int n) {
 	
 	cout << "[ ";
@@ -208,11 +209,6 @@ int main()
 	string opcion;
 	int valor = 0;
 	bool continuar = true;
-	
-	/*cout << "Se genero la siguiente lista inicial:\n\n";
-	generarListaAleatoriamente(lista, 16);
-    print(lista);
-    */
     
     while(continuar){
 		
@@ -228,7 +224,7 @@ int main()
 			
 			case 1 : {
 				
-				cout << "\n a.Insertar Nodo al inicio. \n b.Insertar Nodo al final\n c.Insertar Nodo antes del Elemento X\n d.Insertar Nodo después del Elemento X";	
+				cout << "\n a.Insertar Nodo al inicio. \n b.Insertar Nodo al final\n c.Insertar Nodo antes del Elemento X\n d.Insertar Nodo despuÃ©s del Elemento X";	
 				
 				do{
 					cout << "\n\nIngrese una opcion: -> ";
